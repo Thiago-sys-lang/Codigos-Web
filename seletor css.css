@@ -1,0 +1,25 @@
+a {
+    color: red; /* Cor padrão do link */
+  }
+  
+  a:hover {
+    color:lime; /* Cor ao passar o mouse sobre o link */
+  }
+  p {
+    font-family: Arial; /* Fonte Arial para todos os parágrafos */
+  }
+  h1 {
+    text-align: center;
+    margin: 30px;
+    background-color: darkred;
+  }
+  
+  h1 + p {
+    font-weight: bold; /* Parágrafos após h1 em negrito */
+  }
+  ul {
+    font-family: Arial; /* Fonte Arial por padrão */
+    font-weight: bold; /* Parágrafos com ul em negrito */
+    color: red; /* Elementos strong com ul destaque em vermelho */
+  }
+  
